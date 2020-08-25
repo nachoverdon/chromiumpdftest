@@ -1,0 +1,16 @@
+<div id="pdfHeader" style="width: 100%; background: firebrick;">
+    <h1>HEADER</h1>
+</div>
+<style>
+    @page {
+        @top-center {
+            content: element(pdfHeader);
+        }
+    }
+    
+    #pdfHeader {
+        position: running(pdfHeader);
+        width: 100%;
+        background: firebrick;
+    }
+</style>

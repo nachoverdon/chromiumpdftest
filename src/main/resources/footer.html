@@ -1,0 +1,16 @@
+<div id="pdfFooter">
+    <h1>FOOTER</h1>
+</div>
+<style>
+    @page {
+        @bottom-center {
+            content: element(pdfFooter);
+        }
+    }
+
+    #pdfFooter {
+        position: running(pdfFooter);
+        width: 100%;
+        background: cadetblue;
+    }
+</style>
